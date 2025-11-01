@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>X9999 DARKNET PANEL</title>
+  <style>
+    :root{
+      --neon: #00ffcc;
+      --neon-2: #66ffe0;
+      --bg: #050505;
+      --card: #0f0f0f;
+      --muted: #a6a6a6;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#fff;font-family:Poppins, system-ui, sans-serif;overflow-x:hidden}
+
+    /* Welcome */
+    .welcome{text-align:center;padding:64px 20px 30px;background:radial-gradient(circle at 50% 10%, rgba(0,255,204,0.04), transparent 60%);}
+    .welcome .title{display:inline-block;padding:12px 26px;border-radius:999px;background:linear-gradient(90deg, rgba(0,255,204,0.06), transparent);border:1px solid rgba(0,255,204,0.06);box-shadow:0 6px 30px rgba(0,255,204,0.03);}
+    .welcome h1{margin:0;font-size:28px;color:var(--neon);text-shadow:0 0 18px rgba(0,255,204,0.12);animation:glow 3s infinite alternate}
+    @keyframes glow{from{text-shadow:0 0 18px rgba(0,255,204,0.12)}to{text-shadow:0 0 36px rgba(102,255,224,0.18)}}
+
+    /* Social buttons */
+    .social-buttons{margin-top:18px}
+    .social-buttons a{display:inline-flex;align-items:center;gap:10px;text-decoration:none;padding:10px 18px;border-radius:999px;font-weight:700;margin:6px;
+      background:linear-gradient(90deg,var(--neon),var(--neon-2));color:#001f1a;box-shadow:0 8px 30px rgba(0,255,204,0.08);transition:transform .18s ease,box-shadow .18s}
+    .social-buttons a:hover{transform:translateY(-4px);box-shadow:0 14px 50px rgba(0,255,204,0.18)}
+
+    header{text-align:center;padding:18px 10px;color:var(--neon);border-bottom:1px solid rgba(0,255,204,0.06)}
+
+    /* Grid */
+    .container{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;padding:34px;max-width:1200px;margin:0 auto}
+    .card{background:linear-gradient(180deg,#0f0f0f,#0b0b0b);border-radius:12px;padding:22px;border:1px solid rgba(0,255,204,0.06);box-shadow:0 6px 20px rgba(0,255,204,0.02);transition:transform .18s,box-shadow .18s}
+    .card:hover{transform:translateY(-6px);box-shadow:0 18px 60px rgba(0,255,204,0.08)}
+    .card h2{margin:0 0 8px;font-size:16px;color:var(--neon)}
+    .card p{margin:0 0 18px;color:var(--muted);font-size:14px;min-height:44px}
+    .btn{display:inline-block;padding:10px 18px;border-radius:8px;background:linear-gradient(90deg,var(--neon),var(--neon-2));color:#001f1a;font-weight:800;border:none;cursor:pointer;box-shadow:0 8px 30px rgba(0,255,204,0.06);transition:transform .14s}
+    .btn:hover{transform:scale(1.05)}
+
+    footer{text-align:center;padding:28px 12px;border-top:1px solid rgba(0,255,204,0.04);color:var(--muted)}
+
+    @media (max-width:600px){
+      .welcome h1{font-size:20px}
+      .container{padding:16px;gap:14px}
+    }
+
+  </style>
+</head>
+<body>
+
+  <section class="welcome" aria-label="welcome">
+    <div class="title"><h1>⚡ Welcome to ANUPAM X999 DARKNET SERVER ⚡</h1></div>
+
+    <div class="social-buttons" role="navigation" aria-label="social links">
+      <a href="https://discord.gg/cXJXSWZqjF" target="_blank" rel="noopener noreferrer">💬 Join Discord</a>
+      <a href="https://www.instagram.com/p/DQZq3ppAl78/" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+      <a href="https://youtube.com/@cheatxlive?si=iBtzu2EDRb4uBG7b" target="_blank" rel="noopener noreferrer">▶️ YouTube</a>
+    </div>
+  </section>
+
+  <header>X9999 DARKNET PANEL</header>
+
+  <main class="container" aria-live="polite">
+    <div class="card"><h2>🛒 AIMBOT-VISIBLE</h2><p>High-accuracy visible aim assist module.</p><button class="btn" onclick="buyNow('AIMBOT-VISIBLE')">Buy Now</button></div>
+    <div class="card"><h2>🛒 X9999-BASIC</h2><p>Basic entry-level control panel with core features.</p><button class="btn" onclick="buyNow('X9999-BASIC')">Buy Now</button></div>
+    <div class="card"><h2>🛒 INTERNAL-PANAL</h2><p>Internal injection with deep customization.</p><button class="btn" onclick="buyNow('INTERNAL-PANAL')">Buy Now</button></div>
+    <div class="card"><h2>🛒 BRUTAL-PANAL</h2><p>Extreme mode panel for advanced users.</p><button class="btn" onclick="buyNow('BRUTAL-PANAL')">Buy Now</button></div>
+    <div class="card"><h2>🛒 AIM-KILL-MAX</h2><p>High-end auto aim with precision tracking.</p><button class="btn" onclick="buyNow('AIM-KILL-MAX')">Buy Now</button></div>
+    <div class="card"><h2>🛒 SILENT-AIM-MAX</h2><p>Silent aiming technology with max accuracy.</p><button class="btn" onclick="buyNow('SILENT-AIM-MAX')">Buy Now</button></div>
+    <div class="card"><h2>🛒 SPAWN-KILL-V2</h2><p>Spawn protection bypass with instant hit.</p><button class="btn" onclick="buyNow('SPAWN-KILL-V2')">Buy Now</button></div>
+    <div class="card"><h2>🛒 Magnetic-Pull</h2><p>Target pull magnet feature for smooth locking.</p><button class="btn" onclick="buyNow('Magnetic-Pull')">Buy Now</button></div>
+    <div class="card"><h2>🛒 LOADER-PANEL</h2><p>Universal loader system for all panels.</p><button class="btn" onclick="buyNow('LOADER-PANEL')">Buy Now</button></div>
+    <div class="card"><h2>🛒 STEAMER</h2><p>Optimized streaming integration module.</p><button class="btn" onclick="buyNow('STEAMER')">Buy Now</button></div>
+    <div class="card"><h2>🛒 FAKE-LAG</h2><p>Simulated network lag for strategic advantage.</p><button class="btn" onclick="buyNow('FAKE-LAG')">Buy Now</button></div>
+    <div class="card"><h2>🛒 DwonKill</h2><p>Instant kill feature with toggle control.</p><button class="btn" onclick="buyNow('DwonKill')">Buy Now</button></div>
+    <div class="card"><h2>🛒 X999-Esp-Location</h2><p>ESP-based enemy tracking system.</p><button class="btn" onclick="buyNow('X999-Esp-Location')">Buy Now</button></div>
+    <div class="card"><h2>🛒 CUSTOM-panel</h2><p>Personalized configuration for pro users.</p><button class="btn" onclick="buyNow('CUSTOM-panel')">Buy Now</button></div>
+  </main>
+
+  <footer>© 2025 Anupam X999 | All Rights Reserved</footer>
+
+  <script>
+    // WhatsApp phone with country code inserted by the generator
+    const waPhone = "919339878493";
+    function buyNow(item) {
+      const text = encodeURIComponent(`Hello Anupam, I want to buy: ${item} from X9999 Darknet Panel.`);
+      const url = `https://wa.me/${waPhone}?text=${text}`;
+      window.open(url, "_blank");
+    }
+  </script>
+</body>
+</html>
